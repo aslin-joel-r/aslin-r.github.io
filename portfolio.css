@@ -1,29 +1,32 @@
   body{
     background-color:rgb(61, 24, 246);
-    color: black;
+    color: white;
     margin: 0;
-   overflow: hidden;
+    overflow: hidden;
   }
+
   #navbar{
     position:fixed;
     top:0px;
     width: 100%;
     z-index: 2;
-    height: 40px;
+    height: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 30px 10px 10px 10px;
-    font-size: 30px;
-    background-color:rgb(255, 28, 28);
+    font-size: 20px;
+    background-color:cornsilk;
+    color: black;
     }
+    
   #welcome-section{
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 70px;
+    top: 55px;
     height:80vh;
     background-color: #000;
     color: white;
@@ -32,15 +35,13 @@
   
 #contact{
   position:relative;
-  
   flex-direction:row;
-  height: 50px;
-  top: 50px;
+  height: 60px;
+  top: 40px;
   font-family: monospace;
-  background-color: cadetblue;
+  background-color: rgb(64, 190, 194);
   color: black;
-  font-size:15px;
+  font-size:20px;
   text-align: center;
-
 }
   
