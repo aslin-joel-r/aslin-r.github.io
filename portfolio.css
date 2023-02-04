@@ -22,7 +22,7 @@ a{
     justify-content:space-around;
     padding:20px;
     font-size: 20px;
-    background-image: url(about.jpg);
+    background-image: url(theme.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -39,31 +39,35 @@ a{
     height:100vh;
     background-image: url(about.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     color:white;
     font-size:20px;
     font-family:monospace;
+    background-position: center center;
+
   
   }
   
 #contact{
   position:relative;
-  flex-direction:row;
   height: 60px;
   top: 30px;
   font-family: monospace;
-  background-image:url(about.jpg);
+  background-image:url(theme.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-size:20px;
   text-align: center;
 }
-@media only screen and (max-width: 480px) {
-  img {
-    width: 100%;
+@media screen and (max-width: 600px) {
+
+  #welcome-section{
+    font-size: 15px;
+    background-position: center center;
   }
-  *{
-    font-size: 30px;
+  #contact{
+    font-size: 12px;
+    display: block;
   }
 }
 
